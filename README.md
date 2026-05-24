@@ -75,23 +75,30 @@
 
 ## 安装方法
 
-### 方式一：WorkBuddy用户（推荐）
+### 方式一：WorkBuddy 用户（推荐）
+
+> ⚠️ **注意**：请下载本页面提供的 **`宋韵沉静美学PPT.zip`**，不要使用 GitHub 右上角 `Code → Download ZIP` 的那个包（那个文件名是 `SONGPPT-main.zip`，目录结构不对）。
+
+**直接下载链接**：[宋韵沉静美学PPT.zip](https://github.com/ansuelele/SONGPPT/raw/main/宋韵沉静美学PPT.zip)
 
 ```bash
-# 1. 下载本仓库的 zip 或 clone
-# 2. 解压到 WorkBuddy 的 skills 目录
+# macOS / Linux
 cd ~/.workbuddy/skills
+unzip ~/Downloads/宋韵沉静美学PPT.zip
+# 解压后确认路径：~/.workbuddy/skills/宋韵沉静美学PPT/SKILL.md
 
-# 3. 将 SONGPPT 文件夹放入（确保目录名为 宋韵沉静美学PPT）
-# 最终路径：~/.workbuddy/skills/宋韵沉静美学PPT/SKILL.md
-
-# 4. 重启 WorkBuddy 或刷新技能列表
-# 5. 说触发词即可使用
+# Windows（PowerShell）
+Expand-Archive "$env:USERPROFILE\Downloads\宋韵沉静美学PPT.zip" "$env:USERPROFILE\.workbuddy\skills\"
+# 解压后确认路径：C:\Users\你的用户名\.workbuddy\skills\宋韵沉静美学PPT\SKILL.md
 ```
+
+重启 WorkBuddy 或刷新技能列表，说触发词即可使用。
 
 ### 方式二：ChatGPT / Claude / Coze / Cursor 用户
 
 直接复制 `SKILL.md` 文件中的内容，作为 **Custom Instructions**（自定义指令）或 **System Prompt** 粘贴到你的AI工具中即可使用。
+
+**直接查看 SKILL.md**：[点击这里](https://github.com/ansuelele/SONGPPT/blob/main/SKILL.md)
 
 ---
 
