@@ -1,4 +1,4 @@
-# 宋韵沉静美学PPT · Songyun Quiet Aesthetics PPT
+# 中国风PPT之宋韵沉静美学PPT · Songyun Quiet Aesthetics PPT
 
 > **一句话介绍**：一个让AI帮你生成"沉静显影"美学风格PPT视觉提示词的技能。画面不靠清晰物件抢夺注意，而让主体像从温润、被时间浸泡过的材质中慢慢浮现。
 
